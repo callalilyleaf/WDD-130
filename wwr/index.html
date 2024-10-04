@@ -12,51 +12,78 @@
 </head>
 <body>
     <header>
-        <a href="index.html">
-            <img id="logo" class="rounded" src = "wwr\images\Favicon-192x192.png" alt = "The logo of this website">
+        <a id="logo_link" href="index.html">
+            <img class="logo" src = "images/logo.png" alt = "Dry Oar Logo">
         </a>
         <nav>
             <ul class="navlinks">
                 <li>
-                    <a href = "mountain_trails.html">Mountain Trails</a>
+                    <a href = "index.html">Home</a>
                 </li>
                 <li>
-                    <a href = "camping.html">Camping Spots</a>
+                    <a href = "#">Page 2</a>
                 </li>
                 <li>
-                    <a href = "rivers.html">Rivers</a>
+                    <a href="site-plan-rafting.html">Site Plan</a>
                 </li>
                 <li>
-                    <a href = "skiing.html">Skiing Resorts</a>
-                </li>
-                <li>
-                    <a href="site_plan.html">Site Plan</a>
+                    <a href = "contact-us.html">Contact Us</a>
                 </li>
             </ul>
         </nav>
     </header>
-        <div class="hero">
-            <img src="wwr\images\hero.jpg" alt="Field_hero_banner">
-            <h1>Go to the wild and free</h1>
-            <h2>Make a journey with us</h2>
-            <button>Join Now</button>
+    <div id="hero">
+        <div id="hero-box">
+            <img src="images\hero.jpg" alt="People enjoying rafting">
         </div>
-        <main>
-            <h2>Hiking</h2> 
-            <img src="wwr\images\hiking.jpg" alt="Mountain Trails">     
-            <h2>Camping</h2>  
-            <img src="wwr\images\camping.jpg" alt="Camping Spots">        
-            <h2>River Rafting</h2> 
-            <img src="wwr\images\river_rafting.jpg" alt="Rivers">         
-            <h2>Skiing</h2>      
-            <img src="wwr\images\skiing.jpg" alt="Skiing Resorts">    
-        </main>
+        <section id="hero-msg">
+            <h1 class="home-title">Have An Adventure</h1>
+            <h4>Make Memories with Dry Oar</h4>
+            <div class="button-box">
+                <button class="book" href="contactus.html">Book Now</button>
+            </div>
+        </section>
+    </div>   
+    <main class="home-grid">
+        <section class="rivers-card">
+            <h2>Rivers</h2> 
+            <img class="card-img" src="images\rivers.jpg" alt="river in forest">     
+            <img class="icon" src="images\river_icon.png" alt="river icon">     
+        </section>
+        <section class="camping-card">
+            <h2>Camping</h2> 
+            <img class="card-img" src="images\camping.jpg" alt="tent in mountain">     
+            <img class="icon" src="images\fire_icon.png" alt="fire icon">     
+        </section>
+        <section class="rapids-card">
+            <h2>Rapids</h2> 
+            <img class="card-img" src="images\rapids.jpg" alt="rafting boat">     
+            <img class="icon" src="images\oars.png" alt="oars icon">     
+        </section> 
+            <h2>More Than Just The Thrill</h2>
+            <img class="mountains" src="images/mountains.jpg" alt="Misty Mountains">
+        <section class="msg">
+            <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors.
+            </p>
+            <button class="join" href="rivers.html">Join Us</button>
+        </section>
+    </main>
+    <body>
+
+    </body>
     <footer>
         <!-- "&copy;"  is the copyright symbol -->
-        <p>&copy; 2024 Ivan Cheng</p> 
-        <img src="wwr\images\facebook.png" alt="Facebook">
-        <img src="wwr\images\instagram.png" alt="Instagram">
-        <img src="wwr\images\twitter.png" alt="Twitter">        
+        <p>Dry Oar &copy; 2024 Ivan Cheng</p> 
+        <p><a href="site-plan-rafting.html">Site plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://instagram.com"></a>
+                <img src="images\instagram.png" alt="instagram icon">
+            <a href="https://facebook.com"></a>
+                <img src="images\facebook.png" alt="facebook icon">
+            <a href="https://twitter.com"></a>
+                <img src="images\twitter.png" alt="twitter icon">        
+        </div>    
     </footer>
 </body>
 </html>
