@@ -1,0 +1,125 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto; /* Set the website content centered*/
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    background-color:rgba(74,78,105, .7);
+    color: white;
+}
+
+#background{
+    height: 725px;
+    background-color: rgb(255, 250, 245);
+}
+
+.logo{
+    width: 80px;
+}
+
+.icon{
+    width: 80px;
+}
+
+#hero-img{
+    width: 100%;
+}
+
+.book{
+    background-color: #C9ADA7;
+    color: black;
+    text-decoration: none;
+}
+
+.book:hover{
+    background-color: #C9ADA7;
+    color: white;
+}
+
+.join{
+    background-color: #C9ADA7;
+    color: black;
+    text-decoration: none;
+}
+
+.join:hover{
+    background-color: #C9ADA7;
+    color: white;
+}
+
+.msg{
+    background-color: white;
+}
+
+.msg h2{
+    color: #22223B;
+}
+
+.msg p{
+    color: #22223B;
+}
+
+nav a{
+    text-align: center;
+    color: white;
+    background-color: none;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+#hero-msg{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+#hero-msg{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    color: black;
+}
+
+.button-box{
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+
+footer{
+    background-color: #9A8C98;
+    color: black;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer a{
+    color: #22223B;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.home-title{
+    color: black;
+}

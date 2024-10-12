@@ -8,33 +8,27 @@
     <meta name="description" content="Wireframe for Pracice">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Ivan Cheng">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Whitewater Rafting Vacations | Dry Oar Boating | Home</title>
 </head>
 <body>
+<div id="content">
     <header>
         <a id="logo_link" href="index.html">
             <img class="logo" src = "images/logo.png" alt = "Dry Oar Logo">
         </a>
         <nav>
             <ul class="navlinks">
-                <li>
-                    <a href = "index.html">Home</a>
-                </li>
-                <li>
-                    <a href = "#">Page 2</a>
-                </li>
-                <li>
-                    <a href="site-plan-rafting.html">Site Plan</a>
-                </li>
-                <li>
-                    <a href = "contact-us.html">Contact Us</a>
-                </li>
+                <a href = "index.html">Home</a>
+                <a href = "#">Page 2</a>
+                <a href="site-plan-rafting.html">Site Plan</a>
+                <a href = "contact-us.html">Contact Us</a>
             </ul>
         </nav>
     </header>
     <div id="hero">
         <div id="hero-box">
-            <img src="images/hero_banner.jpg" alt="People enjoying rafting">
+            <img id="hero-img "src="images/hero_banner.jpg" alt="People enjoying rafting">
         </div>
         <section id="hero-msg">
             <h1 class="home-title">Have An Adventure</h1>
@@ -60,6 +54,7 @@
             <img class="card-img" src="images/rapids.jpg" alt="rafting boat">     
             <img class="icon" src="images/oars.png" alt="oars icon">     
         </section> 
+        <div id="background"></div>
         <section class="msg">
             <h2>More Than Just The Thrill</h2>
             <img class="mountains" src="images/mountains.jpg" alt="Misty Mountains">
@@ -68,19 +63,20 @@
             <a class="join" href="rivers.html">Join Us</a>
         </section>
     </main>
-<footer>
-    <!-- "&copy;"  is the copyright symbol -->
-    <p>Dry Oar &copy; 2024 Ivan Cheng</p> 
-    <p><a href="site-plan-rafting.html">Site plan</a></p>
-    <p><a href="contactus.html">Contact Us</a></p>
-    <div class="social">
-        <a href="https://instagram.com"></a>
-            <img src="images/instagram.png" alt="instagram icon">
-        <a href="https://facebook.com"></a>
-            <img src="images/facebook.png" alt="facebook icon">
-        <a href="https://twitter.com"></a>
-            <img src="images/twitter.png" alt="twitter icon">        
-    </div>    
-</footer>
+    <footer>
+        <!-- "&copy;"  is the copyright symbol -->
+        <p>Dry Oar &copy; 2024 Ivan Cheng</p> 
+        <p><a href="site-plan-rafting.html">Site plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://instagram.com" target="_blank"></a>
+                <img src="images/instagram.png" alt="instagram icon">
+            <a href="https://facebook.com" target="_blank"></a>
+                <img src="images/facebook.png" alt="facebook icon">
+            <a href="https://twitter.com" target="_blank"></a>
+                <img src="images/twitter.png" alt="twitter icon">        
+        </div>    
+    </footer>
+</div>
 </body>
 </html>
