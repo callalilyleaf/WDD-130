@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 :root{
---heading-font: "Playfair Display", Arial, serif;
+--heading-font: "Playfair Display", Arial, sans-serif;
 --paragraph-font: "Gowun Batang", Arial, serif;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}
+
+
 
 #content{
     max-width: 1600px;
@@ -12,6 +18,10 @@
 
 body{
     background-color: white;
+    font-size: 22px;
+    font-family: var(--paragraph-font);
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -28,8 +38,13 @@ header{
     width: 80px;
 }
 
+#logo_link{
+    padding-top: 5px;
+}
+
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
@@ -40,6 +55,10 @@ header{
     background-color: #C9ADA7;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover{
@@ -51,6 +70,10 @@ header{
     background-color: #C9ADA7;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover{
@@ -58,8 +81,12 @@ header{
     color: white;
 }
 
+
+
 .msg{
     background-color: white;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2{
@@ -68,12 +95,15 @@ header{
 
 .msg p{
     color: #22223B;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 nav a{
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -90,14 +120,35 @@ h1{
     text-align: center;
 }
 
-#hero-msg{
-    text-align: center;
+h2{
+    margin: 0;
 }
 
 h4{
     text-align: center;
     color: black;
 }
+
+.card-img{
+    border: 10px solid #C9ADA7;
+}
+
+.rivers-card{
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
+}
+
+#hero-msg{
+    text-align: center;
+}
+
 
 .button-box{
     text-align: center;
@@ -107,9 +158,19 @@ main section{
     text-align: center;
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
+.mountains{
+    width: 100%;
+}
+
 footer{
     background-color: #9A8C98;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p{
@@ -126,6 +187,12 @@ footer a:hover{
     text-decoration: underline;
 }
 
+footer .social img{
+    padding-top: 15px;
+}
+
 .home-title{
     color: black;
+    font-size: 2em;
+    margin-top: 10px;
 }
