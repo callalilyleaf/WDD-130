@@ -165,6 +165,7 @@
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
+  max-width: 600px;
   display:grid ;
   grid-template-columns: repeat(6, 1fr);
   /* grid-template-rows: repeat(6, 1fr); */
