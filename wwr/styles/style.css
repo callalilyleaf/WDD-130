@@ -142,7 +142,7 @@ h4{
 .card-img{
     border: 10px solid #C9ADA7;
     transition: transform 0.5s;
-    box-shadow: 5px, 5px, 10px, #22223B;
+    box-shadow: 5px 5px 10px #9A8C98;
     width: 100%;
 }
 
@@ -185,15 +185,15 @@ h4{
     text-align: center;
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 250px;
+    margin-top: 800px;
 }
 
 #hero-msg h1{
-    color: white;
+    color:#9A8C98;
 }
 
 #hero-msg h4{
-    color:black;
+    color:#22223B;
 }
 
 .button-box{
