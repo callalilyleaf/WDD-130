@@ -24,7 +24,7 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     color: white;
     background-color:#3f5b8b;
-    align-self: 0 auto;
+    align-self: auto;
 }
 
 .firstword{
