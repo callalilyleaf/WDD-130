@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    max-width: 300px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+#background{
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.color h3{
+    color: #3645b3;
+}
+
+.color p{
+    color: gray;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    background-color:#3f5b8b;
+    align-self: 0 auto;
+}
+
+.firstword{
+    font-size: 20px;
+    content: "\A";
+}  
+
+#box2{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+
+}
