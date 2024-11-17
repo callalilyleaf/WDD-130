@@ -255,6 +255,94 @@ footer .social img{
     margin-top: 10px;
 }
 
+/* Here are the css for the Camping Site */
+
+#camping-hero-msg {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 800px;
+    position: absolute;
+    top: -525px;  /* Adjust this value to move the title up or down */
+    width: 100%;
+    z-index: 1;  /* This ensures the text appears above the image */
+}
+
+#camping-hero-img{
+    width: 100%;
+
+}
+
+#camping-hero {
+    position: relative;
+}
+
+#camping-hero-box {
+    position: relative;
+    z-index: 0;
+}
+
+#camping-hero-msg h1{
+    color:#f1deee;
+}
+
+#camping-hero-msg h4{
+    color:white;
+}
+
+.camping-grid{
+    display: grid;
+    grid-template-columns: 10px 1fr 1fr 1fr 10px;
+    grid-gap: 20px;
+}
+
+.group-card{
+    margin: 200px 0;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.hike-card{
+    margin: 200px 0;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.lake-card{
+    margin: 200px 0;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.rv-card{
+    margin: 200px 0;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.star-card{
+    margin: 200px 0;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.scenic-card{
+    margin: 200px 0;
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.camping-card-img{
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 10px #9A8C98;
+    width: 100%;
+}
+
+.camping-card-img:hover{
+    opacity: 0.75;
+    transform: scale(1.05);
+}
+
 
 /* "If the max width of the screen gets smaller than 900px, then use this CSS instead of what you may have seen above" */
 @media screen and (max-width: 900px) {
