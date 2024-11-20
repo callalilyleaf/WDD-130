@@ -37,9 +37,6 @@
               <label for="msg">Message:</label>
               <textarea id="msg" name="user_message"></textarea>
             </p>
-            <p class="button">
-                <button type="submit">Send your message</button>
-            </p>
             <label for="username">Name: <span aria-label="required">*</span></label>
             <input id="username" type="text" name="username" required />
             <p>
@@ -65,12 +62,15 @@
                 <strong><span aria-label="required">*</span></strong>
               </label>
               <input
-                type="text"
-                id="expiration"
-                name="expiration"
-                required
-                placeholder="MM/YY"
-                pattern="^(0[1-9]|1[0-2])\/([0-9]{2})$" />
+              type="text"
+              id="expiration"
+              name="expiration"
+              required
+              placeholder="MM/YY"
+              pattern="^(0[1-9]|1[0-2])\/([0-9]{2})$" />
+            </p>
+            <p class="button">
+                <button type="submit">Send your message</button>
             </p>
         </form>
     </main>
