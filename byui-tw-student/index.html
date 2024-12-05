@@ -3,110 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BYUI-TW Student Home Page">
+    <meta name="keywords" content="Student, College, University, Career, Finance, Academic, BYUI-TW">
+    <meta name="author" content="Ivan Cheng">
     <title>BYUI-TW Student | Home</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body>
+<div id="content">
     <header>
+        <a id="logo-link" href="index.html">
+            <img id="logo" src="images/byui-tw-student-logo1.png" alt="byui-tw-student-logo">
+        </a>
         <nav>
-            <a href="index.html">
-                <img src="images/byui-tw-student-logo1.png" alt="byui-tw-student-logo">
-            </a>
-            <nav>
-                <a href="">Assistance</a>
-                <a href="">About Us</a>
-                <a href="">Contact Us</a>
-            </nav>
+            <a href="assistance.html">Assistance</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="contactus.html">Contact Us</a>
         </nav>
     </header>
-<div id="hero">
-    <div id="hero-box">
-        <img id="home-hero-img" src="images/webp/home-hero-1-webp.webp" alt="student enjoy studying">
-    </div>
-    <section id="hero-msg">
-        <h1 class="home-title">BYUI-TW Student</h1>
-        <h4>The seeds we're planting today will grow and become mighty oaks and their branches will run all over the earth</h4>
-        <div class="hero-button-box">
-            <a class="more" href="contactus.html">Learn More</a>
-            <a class="tips" href="assistance.html">Life Tips</a>
+    <div id="hero">
+        <div id="hero-box">
+            <img id="home-hero-img" src="images/webp/home-hero-1-webp.webp" alt="BYU students walking in campus">
         </div>
-    </section>
-</div>
-<main>
-    <div class="home-grid">
-        <h1>Top 3 Categories of Student Struggleness*</h1>
-        <section>
-            <img src="images/medias-icons/global-icon.png" alt="global icon">
-            <h2>Adaptative & Living Challenges</h2>
-            <p>Explanation 1</p>
-            <a href="">Learn more</a>
-        </section>
-        <section>
-            <img src="images/medias-icons/graduate-cap-icon.png" alt="graduate cap icon">
-            <h2>Academic Overwhelm</h2>
-            <p>Explanation 2</p>
-            <a href="">Learn more</a>
-        </section>
-        <section>
-            <img src="images/medias-icons/compass-icon.png" alt="compass icon">
-            <h2>Career Uncertainty</h2>
-            <p>Explanation 3</p>
-            <a href="">Learn more</a>
+        <section id="home-hero-msg">
+            <h1 class="home-title">BYUI-TW Student</h1>
+            <h4>The seeds we're planting today will grow and become mighty oaks and their branches will run all over the earth</h4>
+            <div class="hero-button-box">
+                <a class="more" href="contactus.html">Learn More</a>
+                <a class="tips" href="assistance.html">Life Tips</a>
+            </div>
         </section>
     </div>
-    <div class="FAQdropdown"> <!--Q: How can I make a drop down menu? -->
-        <button onclick="myFunction()" class="dropbtn"><img src="images/medias-icons/compass-icon.png" alt="Drop down icon"></button>
-        <div id="myDropdown" class="dropdown-content">
-            <svg class="dropdown-expand">
-                <use xlink:href="#icon-24-chevron-down"></use>
-            </svg>
-            <h2>Question 1</h2>
-            <p>Answer 1</p><a href="#">more</a>
-            <svg class="dropdown-expand">
-                <use xlink:href="#icon-24-chevron-down"></use>
-            </svg>
-            <h2>Question 2</h2>
-            <p>Answer 2</p><a href="#">more</a>
-            <svg class="dropdown-expand">
-                <use xlink:href="#icon-24-chevron-down"></use>
-            </svg>
-            <h2>Question 3</h2>
-            <p>Answer 3</p><a href="#">more</a>
+    <main>
+        <div class="home-grid">
+            <h2>Top 3 Categories of Student Struggleness*</h2>
+            <section>
+                <img src="images/medias-icons/global-icon.png" alt="global icon">
+                <h3>Adaptative & Living Challenges</h3>
+                <p>Explanation 1</p>
+                <a href="">Learn more</a>
+            </section>
+            <section>
+                <img src="images/medias-icons/graduate-cap-icon.png" alt="graduate cap icon">
+                <h3>Academic Overwhelm</h3>
+                <p>Explanation 2</p>
+                <a href="">Learn more</a>
+            </section>
+            <section>
+                <img src="images/medias-icons/compass-icon.png" alt="compass icon">
+                <h3>Career Uncertainty</h3>
+                <p>Explanation 3</p>
+                <a href="">Learn more</a>
+            </section>
         </div>
-    </div>
-</main>
-<!-- Need to figure out how to put a separate line here -->
-<footer>
-    <div>
-        <ul class="assistance">
-            <li class="navtextbold"><a href="assistance.html">Assistance</a></li>
-            <li class="navtextnormal"><a href="">Finance</a></li>
-            <li class="navtextnormal"><a href="">Career</a></li>
-            <li class="navtextnormal"><a href="">Academic</a></li>
-            <li class="navtextnormal"><a href="">Living</a></li>
-        </ul>
-    </div>
-    <div>
-        <ul class="about-us">
-            <li class="bold"><a href="aboutus.html">About Us</a></li>
-            <li class="navtextnormal"><a href="">Mission Value</a></li>
-            <li class="navtextnormal"><a href="">Volunteer Program</a></li>
-            <li class="navtextnormal"><a href="">Feedback</a></li>
-        </ul>
-    </div>
-    <div>
-        <ul class="contact-us">
-            <li class="bold"><a href="contactus.html">Contact Us</a></li>
-            <li class="navtextnormal"><a href="">Professional Mentors</a></li>
-            <li class="navtextnormal"><a href="">Social Media Pages</a></li>
-        </ul>
-    </div>
+        <div id="FAQdropdown"> <!--Q: How can I make a drop down menu? -->
+            <button onclick="myFunction()" class="dropbtn"><img src="images/medias-icons/compass-icon.png" alt="Drop down icon"></button>
+            <div id="myDropdown" class="dropdown-content">
+                <svg class="dropdown-expand">
+                    <use xlink:href="#icon-24-chevron-down"></use>
+                </svg>
+                <h2>Question 1</h2>
+                <p>Answer 1</p><a href="#">more</a>
+                <svg class="dropdown-expand">
+                    <use xlink:href="#icon-24-chevron-down"></use>
+                </svg>
+                <h2>Question 2</h2>
+                <p>Answer 2</p><a href="#">more</a>
+                <svg class="dropdown-expand">
+                    <use xlink:href="#icon-24-chevron-down"></use>
+                </svg>
+                <h2>Question 3</h2>
+                <p>Answer 3</p><a href="#">more</a>
+            </div>
+        </div>
+    </main>
     <!-- Need to figure out how to put a separate line here -->
-    <p>BYUI-TW-Student &copy; 2024 All rights reserved.</p>
-    <a href="https://www.facebook.com/"><img src="images/medias-icons/facebook-f-icon-icon-size_64.png" alt="FB link"></a>
-    <a href="https://www.instagram.com/"><img src="images/medias-icons/instagram-icon-size_64.png" alt="instagram link"></a>
-    <a href="https://www.linkedin.com/"><img src="images/medias-icons/linked-in-icon-size_64.png" alt="LinkedIn link"></a>
-    <a href="https://x.com/"><img src="images/medias-icons/x-social-media-logo-icon.png" alt="X link"></a>
-</footer>
+    <footer>
+        <div>
+            <ul class="assistance">
+                <li class="navtextbold"><a href="assistance.html">Assistance</a></li>
+                <li class="navtextnormal"><a href="">Finance</a></li>
+                <li class="navtextnormal"><a href="">Career</a></li>
+                <li class="navtextnormal"><a href="">Academic</a></li>
+                <li class="navtextnormal"><a href="">Living</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="about-us">
+                <li class="bold"><a href="aboutus.html">About Us</a></li>
+                <li class="navtextnormal"><a href="">Mission Value</a></li>
+                <li class="navtextnormal"><a href="">Volunteer Program</a></li>
+                <li class="navtextnormal"><a href="">Feedback</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="contact-us">
+                <li class="bold"><a href="contactus.html">Contact Us</a></li>
+                <li class="navtextnormal"><a href="">Professional Mentors</a></li>
+                <li class="navtextnormal"><a href="">Social Media Pages</a></li>
+            </ul>
+        </div>
+        <!-- Need to figure out how to put a separate line here -->
+        <p>BYUI-TW-Student &copy; 2024 All rights reserved.</p>
+        <a href="https://www.facebook.com/"><img src="images/medias-icons/facebook-f-icon-icon-size_64.png" alt="FB link"></a>
+        <a href="https://www.instagram.com/"><img src="images/medias-icons/instagram-icon-size_64.png" alt="instagram link"></a>
+        <a href="https://www.linkedin.com/"><img src="images/medias-icons/linked-in-icon-size_64.png" alt="LinkedIn link"></a>
+        <a href="https://x.com/"><img src="images/medias-icons/x-social-media-logo-icon.png" alt="X link"></a>
+    </footer>
+</div>
+</body>
 </html>

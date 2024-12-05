@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+    --heading-font: "Playfair Display", Arial, sans-serif;
+    --paragraph-font: "Playfair Display", Arial, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}
+
+
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto; /* Set the website content centered*/
+}
+
+body{
+    background-color: white;
+    font-size: 17px;
+    font-family: var(--paragraph-font);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:#202020;
+    color: white;
+    display: grid;
+    grid-template-columns: 100px auto;
+    max-height: 100px;
+}
+
+.home-grid{
+    display: grid;
+    grid-template-columns: 4;
+}
+
+#logo{
+    width: 100px;
+}
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+#home-hero-img{
+    width: 100%;
+    max-height: 700px;
+}
+
+.more{
+    background-color: #C9ADA7;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.more:hover{
+    background-color: #C9ADA7;
+    color: black;
+}
+
+.tips{
+    background-color: #F4FAFC;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.tips:hover{
+    background-color: #C9ADA7;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+}
+
+h3{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    color: black;
+}
+
+#FAQdropdown{
+    height: 725px;
+    background-color: rgb(255, 233, 210);
+}

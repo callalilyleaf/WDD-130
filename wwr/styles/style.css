@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 :root{
 --heading-font: "Playfair Display", Arial, sans-serif;
@@ -87,8 +87,6 @@ header{
     color: white;
 }
 
-
-
 .msg{
     background-color: white;
     line-height: 1.5em;
@@ -138,6 +136,8 @@ h4{
     text-align: center;
     color: black;
 }
+
+/* Last point: 12/4/24,. Keep going on line 121 @ byui-tw-student style.css*/
 
 .card-img{
     border: 10px solid #C9ADA7;
