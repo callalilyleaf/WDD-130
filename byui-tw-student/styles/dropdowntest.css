@@ -1,0 +1,40 @@
+main{
+    margin: 0 auto;
+    width: 60%;
+}
+
+.accordion{
+    margin: 0 auto;
+    background-color: rgb(248, 242, 235);
+    padding: 1rem; /*rem: page-wise, em: container-wise  */
+    width: 100%; /* width of accordion, it's 80% of it's upper label, for example,  main or body. Change the % to make the arrow aligned with the text */
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    outline: none;
+    transition: 0.4s;
+}   
+
+.active, .accordion:hover{
+    font-weight: 700;
+}
+
+.panel{
+    margin: 0 auto;
+    max-height: 0;
+    overflow: hidden;
+    width: 80%;
+    transition: max-height 0.2s ease-out;   
+}
+
+.accordion::after{
+    content: '>';
+    float: right;
+    margin-left: 5px; /* to get this symbol aligned with the text */
+    font-weight: bold;
+
+}
+
+.active::after{
+    content: '\2228';
+}
