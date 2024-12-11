@@ -70,7 +70,7 @@ nav a:hover{
 }
 
 .more{
-    background-color: #C9ADA7;
+    background-color: #746360;
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -105,7 +105,7 @@ nav a:hover{
     grid-row: 1/2;
     margin-top: 800px;
     position: absolute;
-    top: -565px;  /* Adjust this value to move the title up or down */
+    top: -575px;  /* Adjust this value to move the title up or down */
     width: 100%;
     z-index: 1;  /* This ensures the text appears above the image */
 }
@@ -114,8 +114,14 @@ nav a:hover{
     margin-bottom: 0;
 }
 
-#home-hero-msg h3{
-    margin-top: 20px;
+#home-hero-msg h2{
+    margin-top: 10px;
+    color: #3a352b;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#white-title{
     color: white;
 }
 
@@ -265,6 +271,13 @@ h4{
 
 .assistance{
     padding: 20px;
+    grid-column: 3/4;
+    grid-row: 1/4;
+    display: block;
+}
+
+.assistance{
+    padding: 20px;
     grid-column: 2/3;
     grid-row: 1/4;
     display: block;
@@ -284,13 +297,71 @@ h4{
     display: block; 
 }
 
+#bottom-nav{
+    display: grid;
+    grid-template-columns: 10px repeat(3, 1fr) 10px;
+}
+
 #bottom-nav a{
     color: black;
     padding: 3px;
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+#bottome-nav li{
+    list-style-type: none; 
+    margin: 0 auto;
+}
+
+#bottom-nav a:hover{
+    color: white;
+    background-color: #C9ADA7;
+    padding: 3px;
+}
+
+#navtextbold-assistance{
+    font-weight: bold;
+    grid-column: 2/3;
+}
+
+#navtextbold-aboutus{
+    font-weight: bold;
+    grid-column: 3/4;
+}
+
+#navtextbold-contactus{
+    font-weight: bold;
+    grid-column: 4/5;
+}
+
+.navtextnormal{
+    list-style-type: none;  
+}
+
+footer li{
+    list-style-type: none;
+    padding: .8em;
+}
+
+#bottom-copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#copyright{
+    margin: 0;
+    text-align: left;
 }
 
 #bottom-social-media{
-    margin-left: auto;
     display: flex;
     gap: 10px;
+    align-items: center;
+}
+
+#bottom-social-media img{
+    width: 40px;
 }
