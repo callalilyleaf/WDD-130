@@ -49,6 +49,7 @@ header{
 nav{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 nav a{
@@ -61,8 +62,71 @@ nav a{
 
 nav a:hover{
     text-align: center;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: rgb(201, 201, 201);
+    transition: 0.3s;
+}
+
+nav span{
+    font-size: 1em;
+    cursor: pointer;
+    line-height: normal;
+}
+
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 36px;
+  color: #ececec;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #000000;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
 }
 
 #home-hero-img{
@@ -319,6 +383,7 @@ h4{
     color: white;
     background-color: #C9ADA7;
     padding: 3px;
+    transition: 0.5s ease-out;   
 }
 
 #navtextbold-assistance{
