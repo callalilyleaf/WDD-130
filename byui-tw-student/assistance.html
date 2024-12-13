@@ -1,4 +1,4 @@
-<!DOCTYPE html> <!-- Finished-->
+<!DOCTYPE html> <!-- html finished by 12/3/24 -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,117 +9,143 @@
     <title>BYUI-TW Student | Home</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="temp.js" defer></script>
 </head>
 <body>
 <div id="content">
     <header>
+        <a id="logo-link" href="index.html">
+            <img id="logo" src="images/byui-tw-student-logo1.png" alt="byui-tw-student-logo">
+        </a>
         <nav>
-            <a href="index.html">
-                <img src="images/byui-tw-student-logo1.png" alt="byui-tw-student-logo">
-            </a>
-            <nav>
-                <a href="">Assistance</a>
-                <a href="">About Us</a>
-                <a href="">Contact Us</a>
-            </nav>
+            <a href="assistance.html">Assistance</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="contactus.html">Contact Us</a>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="assistance.html">Assistance</a>
+                    <a href="aboutus.html">About Us</a>
+                    <a href="contactus.html">Contact Us</a>
+                </div>
+            </div>
+            <span class="menu-icon" onclick="openNav()">&#9776;</span>
         </nav>
     </header>
     <div id="hero">
         <div id="hero-box">
-            <img id="assistance-hero-img" src="images/webp/assistance-hero-1-webp.webp" alt="Assistance Hero Photo">
+            <img id="assistance-hero-img" src="images/webp/assistance-hero-2-webp.webp" alt="BYU students walking in campus">
         </div>
-        <section id="hero-msg">
+        <section id="home-hero-msg">
             <h1 class="home-title">Assistance</h1>
-            <h4>Success Starts Here: Bridging Dreams to Destinations</h4>
+            <h2 class="home-title">Empowering Students, Transforming Futures</h2>
             <div class="hero-button-box">
                 <a class="more" href="contactus.html">Learn More</a>
-                <a class="tips" href="assistance.html">Be a Mentor</a>
+                <a class="tips" href="assistance.html">Volunteer</a>
             </div>
         </section>
     </div>
     <main>
         <div class="assistance-grid">
-            <section class="finance-card">
-                <img class="card-img" src="images/webp/assistance-finance-1-webp.webp" alt="finance assistance">  
-                <div class="card-button-box">
-                    <a class="more" href="contactus.html">Learn More</a>
-                    <a class="tips" href="assistance.html">tips</a>
-                </div>       
-                <h2>FINANCE</h2> 
-            </section>
-            <section class="career-card">
-                <img class="card-img" src="images/webp/assistance-career-webp.webp" alt="career assistance">  
-                <div class="card-button-box">
-                    <a class="more" href="contactus.html">Learn More</a>
+            <h2 id="assistance-title">Assistance Section</h2>
+            <div id="finance-assistance-chunk">
+                <h2 class="home-title">Finance</h2>
+                <div class="image-container">
+                    <img  src="images/webp/assistance-finance-1-webp.webp" alt="finance-assistance">
+                </div>
+                <div class="assistance-finance-button-box">
+                    <a class="assistance-more" href="contactus.html">Learn More</a>
                     <a class="tips" href="assistance.html">Tips</a>
-                </div>       
-                <h2>CAREER</h2> 
-            </section>
-            <section class="academic-card">
-                <img class="card-img" src="images/webp/assistance-academic-2-webp.webp" alt="academic assistance">        
-                <div class="card-button-box">
-                    <a class="more" href="contactus.html">Learn More</a>
+                </div>
+            </div>
+            <div id="career-assistance-chunk">
+                <h2 class="home-title">Career</h2>
+                <div class="image-container">
+                    <img src="images/webp/assistance-career-webp.webp" alt="career-assistance">
+                </div>
+                <div class="assistance-career-button-box">
+                    <a class="assistance-more" href="contactus.html">Learn More</a>
                     <a class="tips" href="assistance.html">Tips</a>
-                </div>  
-                <h2>ACADEMIC</h2> 
-            </section> 
-            <section class="living-card">
-                <img class="card-img" src="images/webp/assistance-living-webp.webp" alt="living assistance">  
-                <div class="card-button-box">
-                    <a class="more" href="contactus.html">Learn More</a>
+                </div>
+            </div>
+            <div id="academic-assistance-chunk">
+                <h2 class="home-title">Academic</h2>
+                <div class="image-container">
+                    <img src="images/webp/assistance-academic-2-webp.webp" alt="academic-assistance">
+                </div>
+                <div class="assistance-academic-button-box">
+                    <a class="assistance-more" href="contactus.html">Learn More</a>
                     <a class="tips" href="assistance.html">Tips</a>
-                </div>       
-                <h2>LIVING</h2> 
-            </section> 
-        </div>
-        <div class="assistance-witness">
-            <!-- Center all the texts -->
-            <section class="witness1"> 
-                <img src="images/medias-icons/facebook-f-icon-icon-size_64.png" alt="witness 1 image">
-                <h4 class="witness-comment">The finance tips I received from this organization helped me to save money and achieve my goals.</h4>
-                <p class="witness-name">Bill Gates</p>
-                <p class="witness-major-year">Class of 2024, Computer Science Major</p>
-            </section>
-            <section class="witness2">
-                <img src="images/medias-icons/x-social-media-logo-icon.png" alt="witness 2 image">
-                <h4 class="witness-comment">I really love these career tips. They are so helpful and easy to understand.</h4>
-                <p class="witness-name">Elon Musk</p>
-                <p class="witness-major-year">Class of 2021, Business Management Major</p>
-            </section>
+                </div>
+            </div>
+            <div id="living-assistance-chunk">
+                <h2 class="home-title">Living</h2>
+                <div class="image-container">
+                    <img src="images/webp/assistance-living-webp.webp" alt="living-assistance">
+                </div>
+                <div class="assistance-living-button-box">
+                    <a class="assistance-more" href="contactus.html">Learn More</a>
+                    <a class="tips" href="assistance.html">Tips</a>
+                </div>
+            </div>
+            <div id="witness1">
+                <div class="witness1-container">
+                    <img class="witness-photo" src="images/webp/witness1-webp.webp" alt="Emily Rodriguez profile photo"> 
+                </div>
+                <h3 class="witness-text">"The career guidance service helped me land my dream internship at Google. Total game-changer!"</h3>
+                <p class="witness-name">Emily Rodriguez</p>
+                <p class="assistance-witness-title">Computer Science, School of 2025</p>
+            </div>
+            <div id="witness2">
+                <div class="witness2-container">
+                    <img class="witness-photo" src="images/webp/witness2-webp.webp" alt="Tyler Johnson profile photo"> 
+                </div>
+                <h3 class="witness-text">"Financial aid counseling saved me from dropping out. They found scholarships I didn't know existed!"</h3>
+                <p class="witness-name">Tyler Johnson</p>
+                <p class="assistance-witness-title">Economics, School of 2027</p>
+            </div>
         </div>
     </main>
+    <hr>
     <!-- Need to figure out how to put a separate line here -->
     <footer>
-        <div>
-            <ul class="assistance">
-                <li class="navtextbold"><a href="assistance.html">Assistance</a></li>
-                <li class="navtextnormal"><a href="">Finance</a></li>
-                <li class="navtextnormal"><a href="">Career</a></li>
-                <li class="navtextnormal"><a href="">Academic</a></li>
-                <li class="navtextnormal"><a href="">Living</a></li>
-            </ul>
+        <div id="bottom-nav">
+            <nav class="assistance">
+                <h3 class="navtextbold-assistance" href="assistance.html">Assistance</h3>
+                <ul id="bottom-assistance">
+                    <li><a class="navtextnormal" href="">Finance</a></li>
+                    <li><a class="navtextnormal" href="">Career</a></li>
+                    <li><a class="navtextnormal" href="">Academic</a></li>
+                    <li><a class="navtextnormal" href="">Living</a></li>
+                </ul>    
+            </nav>
+            <nav class="about-us">
+                <h3><a class="navtextbold-aboutus" href="aboutus.html">About Us</a></h3>
+                <ul id="bottom-aboutus">
+                    <li><a class="navtextnormal" href="">Mission Value</a></li>
+                    <li><a class="navtextnormal" href="">Volunteer Program</a></li>
+                    <li><a class="navtextnormal" href="">Feedback</a></li>
+                </ul>
+            </nav>
+            <nav class="contact-us">
+                <h3 class="navtextbold-contactus" href="contactus.html">Contact Us</h3> 
+                <ul id="bottom-contactus">
+                    <li><a class="navtextnormal" href="">Professional Mentors</a></li>
+                    <li><a class="navtextnormal" href="">Social Media Pages</a></li>
+                </ul>
+            </nav>
         </div>
-        <div>
-            <ul class="about-us">
-                <li class="bold"><a href="aboutus.html">About Us</a></li>
-                <li class="navtextnormal"><a href="">Mission Value</a></li>
-                <li class="navtextnormal"><a href="">Volunteer Program</a></li>
-                <li class="navtextnormal"><a href="">Feedback</a></li>
-            </ul>
-        </div>
-        <div>
-            <ul class="contact-us">
-                <li class="bold"><a href="contactus.html">Contact Us</a></li>
-                <li class="navtextnormal"><a href="">Professional Mentors</a></li>
-                <li class="navtextnormal"><a href="">Social Media Pages</a></li>
-            </ul>
-        </div>
+        <hr>
         <!-- Need to figure out how to put a separate line here -->
-        <p>BYUI-TW-Student &copy; 2024 All rights reserved.</p>
-        <a href="https://www.facebook.com/"><img src="images/medias-icons/facebook-f-icon-icon-size_64.png" alt="FB link"></a>
-        <a href="https://www.instagram.com/"><img src="images/medias-icons/instagram-icon-size_64.png" alt="instagram link"></a>
-        <a href="https://www.linkedin.com/"><img src="images/medias-icons/linked-in-icon-size_64.png" alt="LinkedIn link"></a>
-        <a href="https://x.com/"><img src="images/medias-icons/x-social-media-logo-icon.png" alt="X link"></a>
+        <div id="bottom-copyright">
+            <p id="copyright">BYUI-TW-Student &copy; 2024 All rights reserved.</p>
+            <div id="bottom-social-media">
+                <a href="https://www.facebook.com/"><img src="images/medias-icons/facebook-f-icon-icon-size_64.png" alt="FB link"></a>
+                <a href="https://www.instagram.com/"><img src="images/medias-icons/instagram-icon-size_64.png" alt="instagram link"></a>
+                <a href="https://www.linkedin.com/"><img src="images/medias-icons/linked-in-icon-size_64.png" alt="LinkedIn link"></a>
+                <a href="https://x.com/"><img src="images/medias-icons/x-social-media-logo-icon.png" alt="X link"></a>
+            </div>
+        </div>
     </footer>
 </div>
 </body>

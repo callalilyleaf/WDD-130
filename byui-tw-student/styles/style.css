@@ -23,7 +23,7 @@ body{
 }
 
 header{
-    background-color:#202020;
+    background-color:#0a0c0b;
     color: white;
     display: grid;
     grid-template-columns: 100px auto;
@@ -38,6 +38,7 @@ header{
 
 #logo{
     width: 100px;
+    margin-left: 10%;
 }
 
 #logo_link{
@@ -197,7 +198,7 @@ nav span{
 
 main{
     margin: 0 auto;
-    width: 85%;
+    width: 90%;
 }
 
 h1{
@@ -430,4 +431,93 @@ footer li{
 
 #bottom-social-media img{
     width: 40px;
+}
+
+/* Assistance Page styles */
+
+#assistance-hero-img{
+    width: 100%;
+    max-height: 700px;
+}
+
+.assistance-grid{
+    display: grid;
+    grid-template-columns: 10px 1fr 1fr 10px;
+    gap: 20px;
+}
+
+.assistance-grid img{
+    max-width: 650px;
+    max-height: 500px;
+}
+
+.assistance-grid h2{
+    font-size: 2em;
+    margin-top: 10%;
+}
+
+#assistance-title{
+    grid-column: 2/4;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 3% auto 0;
+}
+
+.assistance-more{
+    background-color: #ffffff;
+    color: rgb(52, 52, 52);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin: 50px 10px;
+    border-radius: 5px;
+}
+
+.assistance-more:hover{
+    background-color:rgb(52, 52, 52);
+    color: white;
+}
+
+#finance-assistance-chunk{
+    grid-column: 2/3;
+}
+
+.assistance-finance-button-box{
+    text-align: center;
+    margin-top: 800px;
+    position: absolute;
+    top: 60%;  /* Adjust this value to move the title up or down */
+    width: 40%;
+    z-index: 1; 
+}
+
+#career-assistance-chunk{
+    grid-column: 3/4;
+}
+
+#academic-assistance-chunk{
+    grid-column: 2/3;
+}
+
+#living-assistance-chunk{
+    grid-column: 3/4;
+}
+
+#witness1{
+    grid-column: 2/3;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#witness2{
+    grid-column: 3/4;
+    text-align: center;
+}
+
+.witness1-container{
+    border-radius: 50%;
+}
+
+.witness2-container{
+
 }
