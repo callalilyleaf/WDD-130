@@ -6,110 +6,133 @@
     <meta name="description" content="BYUI-TW Student Home Page">
     <meta name="keywords" content="Student, College, University, Career, Finance, Academic, BYUI-TW">
     <meta name="author" content="Ivan Cheng">
-    <title>BYUI-TW Student | Home</title>
+    <title>BYUI-TW Student | Contact Us</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="temp.js" defer></script>
 </head>
 <body>
 <div id="content">
     <header>
+        <a id="logo-link" href="index.html">
+            <img id="logo" src="images/byui-tw-student-logo1.png" alt="byui-tw-student-logo">
+        </a>
         <nav>
-            <a href="index.html">
-                <img src="images/byui-tw-student-logo1.png" alt="byui-tw-student-logo">
-            </a>
-            <nav>
-                <a href="">Assistance</a>
-                <a href="">About Us</a>
-                <a href="">Contact Us</a>
-            </nav>
+            <a href="assistance.html">Assistance</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="contactus.html">Contact Us</a>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="assistance.html">Assistance</a>
+                    <a href="aboutus.html">About Us</a>
+                    <a href="contactus.html">Contact Us</a>
+                </div>
+            </div>
+            <span class="menu-icon" onclick="openNav()">&#9776;</span>
         </nav>
     </header>
     <div id="hero">
         <div id="hero-box">
-            <img id="hero-img" src="images/webp/home-hero-1-webp.webp" alt="student enjoy studying">
+            <img id="hero-img" src="images/webp/aboutus-hero-webp.webp" alt="About Us Hero photo">
         </div>
         <section id="hero-msg">
-            <h1 class="home-title">BYUI-TW Student</h1>
-            <h4>The seeds we're planting today will grow and become mighty oaks and their branches will run all over the earth</h4>
+            <h1 class="home-title">About Us</h1>
+            <h4>Built By Students, For Students: Your Success Is Our Mission</h4>
             <div class="button-box">
                 <a class="more" href="contactus.html">Learn More</a>
-                <a class="tips" href="assistance.html">Life Tips</a>
+                <a class="tips" href="assistance.html">Join Us</a>
             </div>
         </section>
     </div>
     <main>
-        <div class="home-grid">
-            <h1>Top 3 Categories of Student Struggleness*</h1>
-            <section>
+        <!-- Get a grid of 3/4 -->
+        <div class="aboutus-grid"> 
+            <section class="aboutus-introduction">
+                <h2>Our Story</h2>
+                <p>Born from the shared struggles of students navigating college complexities, our organization emerged as a beacon of comprehensive support. We recognized the need for a holistic platform that addresses the interconnected challenges students face, transforming their collegiate journey from overwhelming to empowering.</p>
+            </section>
+            <section class="about-titles">
                 <img src="images/medias-icons/global-icon.png" alt="global icon">
-                <h2>Adaptative & Living Challenges</h2>
-                <p>Explanation 1</p>
-                <a href="">Learn more</a>
+                <h3>Our Mission: Unleashing Potential</h3>
+                <p>We believe in every student's unique capabilities. Our mission is to provide personalized support that transforms challenges into opportunities, helping students chart a clear path to success.</p>
             </section>
-            <section>
-                <img src="images/medias-icons/graduate-cap-icon.png" alt="graduate cap icon">
-                <h2>Academic Overwhelm</h2>
-                <p>Explanation 2</p>
-                <a href="">Learn more</a>
+            <section class="about-titles">
+                <img src="images/medias-icons/tools-icon.png" alt="support icon">
+                <h3>Comprehensive Support: Integrated Solutions</h3>
+                <p>Student success requires more than isolated advice. We offer a seamless platform that connects academic, financial, career, and personal development resources, creating a comprehensive support system.</p>
             </section>
-            <section>
-                <img src="images/medias-icons/compass-icon.png" alt="compass icon">
-                <h2>Career Uncertainty</h2>
-                <p>Explanation 3</p>
-                <a href="">Learn more</a>
+            <section class="about-titles">
+                <img src="images/medias-icons/graduate-cap-icon.png" alt="growth icon">
+                <h3>Community-Driven Growth: Evolving Together</h3>
+                <p>More than a website, we're a dynamic community. We continuously adapt and improve, learning from student experiences and emerging trends to provide cutting-edge support.</p>
             </section>
         </div>
-        <div class="FAQdropdown"> <!--Q: How can I make a drop down menu? -->
-            <button onclick="myFunction()" class="dropbtn"><img src="" alt="Drop down icon"></button>
-            <div id="myDropdown" class="dropdown-content">
-                <svg class="dropdown-expand">
-                    <use xlink:href="#icon-24-chevron-down"></use>
-                </svg>
-                <h2>Question 1</h2>
-                <p>Answer 1</p><a href="#">more</a>
-
-                <svg class="dropdown-expand">
-                    <use xlink:href="#icon-24-chevron-down"></use>
-                </svg>
-                <h2>Question 2</h2>
-                <p>Answer 2</p><a href="#">more</a>
-
-                <svg class="dropdown-expand">
-                    <use xlink:href="#icon-24-chevron-down"></use>
-                </svg>
-                <h2>Question 3</h2>
-                <p>Answer 3</p><a href="#">more</a>
-            </div>
+        <div class="aboutus-witness">
+            <!-- Center all the texts -->
+            <section class="witness1"> 
+                <img src="images/medias-icons/facebook-f-icon-icon-size_64.png" alt="witness 1 image">
+                <h4 class="witness-comment">The finance tips I received from this organization helped me to save money and achieve my goals.</h4>
+                <p class="witness-name">Bill Gates</p>
+                <p class="witness-major-year">Class of 2024, Computer Science Major</p>
+            </section>
+            <section class="witness2">
+                <img src="images/medias-icons/x-social-media-logo-icon.png" alt="witness 2 image">
+                <h4 class="witness-comment">I really love these career tips. They are so helpful and easy to understand.</h4>
+                <p class="witness-name">Elon Musk</p>
+                <p class="witness-major-year">Class of 2021, Business Management Major</p>
+            </section>
+        </div>
+        <div class="aboutus-join-form">
+            <h2>Change the Lives Together!</h2>
+            <form>
+              <label for="fname">First name:</label><br>
+              <input type="text" id="fname" name="fname" value="John"><br>
+              <label for="lname">Last name:</label><br>
+              <input type="text" id="lname" name="lname" value="Doe">
+              <input type="submit" value="Join Us!">
+            </form>
+            <p>By clicking "Submit" I agree to the <a href="">Terms of Use</a> and have read the <a href="">Privacy Notice</a>.</p>
         </div>
     </main>
-    <!-- Need to figure out how to put a separate line here -->
+    <hr>
     <footer>
-        <div>
-            <ul class="assistance">
-                <li class="navtextbold"><a href="assistance.html">Assistance</a></li>
-                <li class="navtextnormal"><a href="">Finance</a></li>
-                <li class="navtextnormal"><a href="">Career</a></li>
-                <li class="navtextnormal"><a href="">Academic</a></li>
-                <li class="navtextnormal"><a href="">Living</a></li>
-            </ul>
+        <div id="bottom-nav">
+            <nav class="assistance">
+                <h3 class="navtextbold-assistance">Assistance</h3>
+                <ul id="bottom-assistance">
+                    <li><a class="navtextnormal" href="">Finance</a></li>
+                    <li><a class="navtextnormal" href="">Career</a></li>
+                    <li><a class="navtextnormal" href="">Academic</a></li>
+                    <li><a class="navtextnormal" href="">Living</a></li>
+                </ul>    
+            </nav>
+            <nav class="about-us">
+                <h3 class="navtextbold-aboutus">About Us</h3>
+                <ul id="bottom-aboutus">
+                    <li><a class="navtextnormal" href="">Mission Value</a></li>
+                    <li><a class="navtextnormal" href="">Volunteer Program</a></li>
+                    <li><a class="navtextnormal" href="">Feedback</a></li>
+                </ul>
+            </nav>
+            <nav class="contact-us">
+                <h3 class="navtextbold-contactus">Contact Us</h3> 
+                <ul id="bottom-contactus">
+                    <li><a class="navtextnormal" href="">Professional Mentors</a></li>
+                    <li><a class="navtextnormal" href="">Social Media Pages</a></li>
+                </ul>
+            </nav>
         </div>
-        <div>
-            <ul class="about-us">
-                <li class="bold"><a href="aboutus.html">About Us</a></li>
-                <li class="navtextnormal"><a href="">Mission Value</a></li>
-                <li class="navtextnormal"><a href="">Volunteer Program</a></li>
-                <li class="navtextnormal"><a href="">Feedback</a></li>
-            </ul>
+        <hr>
+        <div id="bottom-copyright">
+            <p id="copyright">BYUI-TW-Student &copy; 2024 All rights reserved.</p>
+            <div id="bottom-social-media">
+                <a href="https://www.facebook.com/"><img src="images/medias-icons/facebook-f-icon-icon-size_64.png" alt="FB link"></a>
+                <a href="https://www.instagram.com/"><img src="images/medias-icons/instagram-icon-size_64.png" alt="instagram link"></a>
+                <a href="https://www.linkedin.com/"><img src="images/medias-icons/linked-in-icon-size_64.png" alt="LinkedIn link"></a>
+                <a href="https://x.com/"><img src="images/medias-icons/x-social-media-logo-icon.png" alt="X link"></a>
+            </div>
         </div>
-        <div>
-            <ul class="contact-us">
-                <li class="bold"><a href="contactus.html">Contact Us</a></li>
-                <li class="navtextnormal"><a href="">Professional Mentors</a></li>
-                <li class="navtextnormal"><a href="">Social Media Pages</a></li>
-            </ul>
-        </div>
-        <!-- Need to figure out how to put a separate line here -->
-        <p>BYUI-TW-Student &copy; 2024 All rights reserved.</p>\
     </footer>
 </div>
 </body>

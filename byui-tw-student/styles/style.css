@@ -134,7 +134,7 @@ nav span{
   }
 }
 
-#home-hero-img{
+.hero-img{
     width: 100%;
     max-height: 700px;
 }
@@ -188,7 +188,6 @@ nav span{
 #home-hero-msg h2{
     margin-top: 10px;
     color: #3a352b;
-    font-size: 2.5em;
     font-weight: bold;
 }
 
@@ -212,12 +211,9 @@ h1{
 }
 
 h2{
+    font-size: 1.5em;
     text-align: center;
     margin: 0;
-}
-
-h3{
-    text-align: center;
 }
 
 h4{
@@ -442,11 +438,6 @@ footer li{
 /* Assistance Page styles */
 /*  */
 
-#assistance-hero-img{
-    width: 100%;
-    max-height: 700px;
-}
-
 .assistance-grid{
     display: grid;
     grid-template-columns: 10px 1fr 1fr 10px;
@@ -574,4 +565,236 @@ footer li{
 .witness-text{
     max-width: 85%;
     margin: 0 auto;
+}
+
+/*  */
+/* about us page styles */
+/*  */
+
+#aboutus-hero-msg {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 800px;
+    position: absolute;
+    top: -600px;  /* Adjust this value to move the title up or down */
+    width: 100%;
+    z-index: 1;  /* This ensures the text appears above the image */
+}
+
+.aboutus-button-box{
+    margin: 20px; 
+    padding: 40px; 
+}
+
+.aboutus-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 8% auto 5%;
+}
+
+.aboutus-grid h3{
+    margin: 0;
+    font-style: italic;
+}
+
+.aboutus-grid p{
+    font-size: 1.2em;
+}
+
+/*  */
+
+.mission-img{
+    width: 2.3em; 
+    background-color: #ffefda;
+    margin-top: 23%;
+    border-radius: 10%;
+}
+
+
+.aboutus-introduction{
+    grid-column: 1/2;
+    grid-row: 1/4;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 20% 5% 0 0;
+}
+
+.aboutus-introduction h2{
+    font-size: 3em;
+    font-style: italic;
+}
+
+.aboutus-introduction p{
+    font-size: 1.5em;
+}
+
+.about-mission1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 10% 1fr;
+    margin: 5% auto;
+    background-color: white;
+}
+
+.about-mission2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 10% 1fr;
+    margin: 5% auto;
+}
+
+.about-mission3{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 10% 1fr; 
+    margin: 5% auto;    
+}
+
+#witness3{
+    width: 90%;
+    grid-column: 1/2;
+    text-align: center;
+    margin-bottom: 7%;
+    margin: 10% auto 5%;
+    background-color: #f4f2cf;
+}
+
+#witness4{
+    width: 90%;
+    grid-column: 2/3;
+    text-align: center;
+    margin-bottom: 7%;
+    margin: 10% auto 5%;
+    background-color: #e0d2ce;
+}
+
+form {
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    margin: 0 0 30px 0;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  input[type="datetime"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="time"],
+  input[type="url"],
+  textarea,
+  select {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 95%;
+    background-color: #e8eeef;
+    color: #000000;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin: 0 4px 8px 0;
+  }
+  
+  select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+  }
+  
+  button {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #4bc970;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #3ac162;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+  }
+  
+  fieldset {
+    margin-bottom: 30px;
+    border: none;
+  }
+  
+  legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  label.light {
+    font-weight: 300;
+    display: inline;
+  }
+  
+  .number {
+    background-color: #5fcf80;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 100%;
+  }
+  
+@media screen and (min-width: 480px) {
+  
+    form {
+      max-width: 480px;
+    }
+  
+  }
+
+.aboutus-join-form h2{
+    margin: 3% auto 5%;
+    font-size: 2em;
+}
+
+.aboutus-join-form h3{
+    text-align: center;
+    font-size: 1.5em;
+    margin: 5% auto 7%;
+}
+
+.aboutus-join-form p{
+    text-align: center;
+    margin: 5% auto 3%;
 }
