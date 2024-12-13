@@ -22,6 +22,10 @@ body{
     padding: 0;
 }
 
+.button{
+    font-family: "Playfair Display", Arial, serif;
+}
+
 header{
     background-color:#0a0c0b;
     color: white;
@@ -143,6 +147,7 @@ nav span{
     padding: 15px 30px;
     margin: 50px 10px;
     border-radius: 5px;
+    z-index: 1;
 }
 
 .more:hover{
@@ -433,7 +438,9 @@ footer li{
     width: 40px;
 }
 
+/*  */
 /* Assistance Page styles */
+/*  */
 
 #assistance-hero-img{
     width: 100%;
@@ -463,14 +470,27 @@ footer li{
     margin: 3% auto 0;
 }
 
+.category-title{
+    font-size: 2em;
+    margin: 5% auto 2%; 
+}
+
+.finance-card{
+    text-align: center;
+    margin: 0 auto;
+    width: 45%; 
+    justify-content: center;    
+}
+
 .assistance-more{
     background-color: #ffffff;
     color: rgb(52, 52, 52);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1em;
     padding: 15px 30px;
     margin: 50px 10px;
     border-radius: 5px;
+    z-index: 1;
 }
 
 .assistance-more:hover{
@@ -479,16 +499,44 @@ footer li{
 }
 
 #finance-assistance-chunk{
+    font-size: 1rem;
     grid-column: 2/3;
 }
 
 .assistance-finance-button-box{
     text-align: center;
-    margin-top: 800px;
-    position: absolute;
-    top: 60%;  /* Adjust this value to move the title up or down */
-    width: 40%;
-    z-index: 1; 
+    position: relative;     
+    top: -225px;
+    left: -25px;
+    min-height: 0px;
+    z-index: 1;
+}
+
+.assistance-career-button-box{
+    text-align: center;
+    position: relative;     
+    top: -225px;
+    left: -25px;
+    min-height: 0px;
+    z-index: 1;
+}
+
+.assistance-academic-button-box{
+    text-align: center;
+    position: relative;     
+    top: -225px;
+    left: -25px;
+    min-height: 0px;
+    z-index: 1;
+}
+
+.assistance-living-button-box{
+    text-align: center;
+    position: relative;     
+    top: -225px;
+    left: -25px;
+    min-height: 0px;
+    z-index: 1;
 }
 
 #career-assistance-chunk{
@@ -514,10 +562,15 @@ footer li{
     text-align: center;
 }
 
-.witness1-container{
+.witness-photo{
     border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10% auto 5%;
 }
 
-.witness2-container{
-
+.witness-text{
+    max-width: 85%;
+    margin: 0 auto;
 }
