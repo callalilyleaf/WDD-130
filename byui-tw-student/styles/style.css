@@ -283,6 +283,7 @@ h4{
     padding: 1.5rem; /*rem: page-wise, em: container-wise  */
     width: 80%; /* width of accordion, it's 80% of it's upper label, for example,  main or body. Change the % to make the arrow aligned with the text */
     cursor: pointer;
+    color: black;
     border: none;
     text-align: center;
     font-size: 1em;
